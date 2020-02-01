@@ -1,0 +1,8 @@
+{
+  "port": 5000,
+  "dbhost": "localhost",
+  "dbuser": "",
+  "dbpassword": "",
+  "dbname": "",
+  "secret": ""
+}

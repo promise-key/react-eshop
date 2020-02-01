@@ -1,0 +1,126 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.authButtons {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.authInput:focus {
+  border-bottom: 1px solid #1de9b6!important;
+  box-shadow: 0 1px 0 0 #1de9b6!important;
+}
+
+.authInput:focus + label {
+  color: #1de9b6!important;
+}
+
+nav .brand-logo {
+  padding: 0 2rem;
+}
+
+.products {
+  margin-top: 20px;
+}
+
+.products .card {
+  max-height: 260px;
+  min-height: 260px;
+}
+
+.products .card .card-image img {
+  top: 15px;
+  width: 50px;
+  margin: auto;
+}
+
+.products .card-content span {
+  display: flex;
+}
+
+.products .card-action {
+  justify-content: center;
+  display: flex;
+}
+
+.outOfStock {
+  color: #ff3d00;
+}
+
+.productCountry {
+  margin-bottom: 20px;
+}
+
+.priceWeight {
+  justify-content: space-between;
+}
+
+/* Loader */
+.lds-grid {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-grid div {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #afb42b;
+  animation: lds-grid 1.2s linear infinite;
+}
+.lds-grid div:nth-child(1) {
+  top: 8px;
+  left: 8px;
+  animation-delay: 0s;
+}
+.lds-grid div:nth-child(2) {
+  top: 8px;
+  left: 32px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(3) {
+  top: 8px;
+  left: 56px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(4) {
+  top: 32px;
+  left: 8px;
+  animation-delay: -0.4s;
+}
+.lds-grid div:nth-child(5) {
+  top: 32px;
+  left: 32px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(6) {
+  top: 32px;
+  left: 56px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(7) {
+  top: 56px;
+  left: 8px;
+  animation-delay: -0.8s;
+}
+.lds-grid div:nth-child(8) {
+  top: 56px;
+  left: 32px;
+  animation-delay: -1.2s;
+}
+.lds-grid div:nth-child(9) {
+  top: 56px;
+  left: 56px;
+  animation-delay: -1.6s;
+}
+@keyframes lds-grid {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* end Loader */
